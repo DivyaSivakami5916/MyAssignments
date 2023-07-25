@@ -20,7 +20,7 @@ public class FindAccount {
 		driver.findElement(By.linkText("Accounts")).click();
 		driver.findElement(By.xpath("//a[text()='Find Accouts']")).click();
 		driver.findElement(By.xpath("(//input[@name='accountName'])[2]")).sendKeys("Credit Limited Account");
-		driver.findElement(By.xpath("(//button[text()='Fid Accouts']")).click();
+		driver.findElement(By.xpath("(//button[text()='Find Accouts']")).click();
 		driver.findElement(By.linkText("Credit Limited Account")).click();
 		driver.findElement(By.linkText("Edit")).click();
 		String e = driver.findElement(By.className("(//span[@class='tabletext'])[3]")).getText();
