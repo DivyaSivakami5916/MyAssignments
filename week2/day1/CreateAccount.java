@@ -42,10 +42,7 @@ public class CreateAccount {
 		Select stdd=new Select(state);
 		stdd.selectByValue("TX");
 		driver.findElement(By.xpath("//input[contains(@class,'smallSubmit')]")).click();
-		driver.close();
-		
-		
-		
+		driver.close();		
 		
 	}
 
